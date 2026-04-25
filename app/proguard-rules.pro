@@ -36,7 +36,8 @@
 -keep class com.google.firebase.crashlytics.** { *; }
 -dontwarn com.google.firebase.crashlytics.**
 # keep everything in this package from being removed or renamed
--keep class com.mmdev.domain.** { *; }
+-keep class com.greatideasoft.cwm.domain.** { *; }
 
 # keep everything in this package from being renamed only
--keepnames class com.mmdev.domain.** { *; }
+-keepnames class com.greatideasoft.cwm.domain.** { *; }
+

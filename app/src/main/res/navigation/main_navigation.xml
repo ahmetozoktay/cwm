@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
   ~ Created by Andrii Kovalchuk
-  ~ Copyright (C) 2021. roove
+  ~ Copyright (C) 2021. cwm
   ~
   ~ This program is free software: you can redistribute it and/or modify
   ~ it under the terms of the GNU General Public License as published by
@@ -22,6 +22,15 @@
 	xmlns:android="http://schemas.android.com/apk/res/android"
 	xmlns:app="http://schemas.android.com/apk/res-auto"
 	xmlns:tools="http://schemas.android.com/tools">
+
+	<action android:id="@+id/action_global_chatFragment"
+		app:destination="@id/chatFragment"
+
+		app:enterAnim="@anim/nav_default_enter_anim"
+		app:exitAnim="@anim/nav_default_exit_anim"
+		app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+		app:popExitAnim="@anim/nav_default_pop_exit_anim"
+		/>
 
 	<action android:id="@+id/action_open_pairsFragment"
 		app:destination="@id/pairsFragment"
@@ -61,7 +70,7 @@
 
 	<!-- main pairs fragment-->
 	<fragment android:id="@+id/pairsFragment"
-		android:name="com.mmdev.roove.ui.pairs.PairsFragment"
+		android:name="com.greatideasoft.cwm.app.ui.pairs.PairsFragment"
 		tools:layout="@layout/fragment_pairs" >
 
 		<action android:id="@+id/action_pairs_to_profileFragment"
@@ -86,7 +95,7 @@
 
 	<!-- main cards fragment-->
 	<fragment android:id="@+id/cardsFragment"
-		android:name="com.mmdev.roove.ui.cards.CardsFragment"
+		android:name="com.greatideasoft.cwm.app.ui.cards.CardsFragment"
 		android:label="Cards"
 		tools:layout="@layout/fragment_cards" >
 
@@ -109,7 +118,7 @@
 
 	<!-- main conversations fragment-->
 	<fragment android:id="@+id/conversationsFragment"
-		android:name="com.mmdev.roove.ui.conversations.ConversationsFragment"
+		android:name="com.greatideasoft.cwm.app.ui.conversations.ConversationsFragment"
 		tools:layout="@layout/fragment_conversations" >
 
 		<action android:id="@+id/action_conversations_to_chatFragment"
@@ -125,7 +134,7 @@
 	<!-- main settings fragment-->
 	<fragment android:id="@+id/settingsFragment"
 		android:label="Settings"
-		android:name="com.mmdev.roove.ui.settings.SettingsFragment"
+		android:name="com.greatideasoft.cwm.app.ui.settings.SettingsFragment"
 		tools:layout="@layout/fragment_settings" >
 
 		<action android:id="@+id/action_settings_to_settingsEditInfoFragment"
@@ -141,12 +150,12 @@
 	<!-- secondary settings edit fragment -->
 	<fragment android:id="@+id/settingsEditInfoFragment"
 		android:label="Edit"
-		android:name="com.mmdev.roove.ui.settings.edit.SettingsEditInfoFragment"
+		android:name="com.greatideasoft.cwm.app.ui.settings.edit.SettingsEditInfoFragment"
 		tools:layout="@layout/fragment_settings_edit_info" />
 
 	<!-- secondary profile view fragment-->
 	<fragment android:id="@+id/profileFragment"
-		android:name="com.mmdev.roove.ui.profile.ProfileFragment"
+		android:name="com.greatideasoft.cwm.app.ui.profile.ProfileFragment"
 		tools:layout="@layout/fragment_profile">
 
 		<argument
@@ -171,7 +180,7 @@
 
 	<!-- secondary conversations chat fragment-->
 	<fragment android:id="@+id/chatFragment"
-		android:name="com.mmdev.roove.ui.chat.ChatFragment"
+		android:name="com.greatideasoft.cwm.app.ui.chat.ChatFragment"
 		tools:layout="@layout/fragment_chat">
 
 		<action android:id="@+id/action_chat_to_profileFragment"
@@ -208,3 +217,5 @@
 	</fragment>
 
 </navigation>
+
+

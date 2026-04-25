@@ -1,37 +1,23 @@
-/*
- * Created by Andrii Kovalchuk
- * Copyright (C) 2021. roove
- *
- * This program is free software: you can redistribute it and/or modify
- * it under the terms of the GNU General Public License as published by
- * the Free Software Foundation, either version 3 of the License, or
- * (at your option) any later version.
- *
- * This program is distributed in the hope that it will be useful,
- * but WITHOUT ANY WARRANTY; without even the implied warranty of
- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- * GNU General Public License for more details.
- *
- * You should have received a copy of the GNU General Public License
- * along with this program.  If not, see https://www.gnu.org/licenses
- */
-
 buildscript {
 
 	ext {
-		kotlin_version = '1.6.10'
+		kotlin_version = '2.0.21'
+		hilt_version = '2.55'
 		majorVersion = 2
 		minorVersion = 0
 		patchVersion = 2
 	}
 
 
+    configurations.all {
+    }
+
 	dependencies {
-		classpath 'com.android.tools.build:gradle:7.1.1'
-		classpath 'com.google.gms:google-services:4.3.10'
+		classpath 'com.android.tools.build:gradle:8.4.2'
+		classpath 'com.google.gms:google-services:4.4.2'
 		classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
-		classpath 'com.google.firebase:firebase-crashlytics-gradle:2.8.1'
-		classpath 'com.google.dagger:hilt-android-gradle-plugin:2.40.1'
+		classpath 'com.google.firebase:firebase-crashlytics-gradle:2.9.9'
+		classpath "com.google.dagger:hilt-android-gradle-plugin:$hilt_version"
 	}
 
 	repositories {
@@ -48,9 +34,11 @@ allprojects {
 		mavenCentral()
 		maven { url 'https://jitpack.io' }
 	}
+
+    configurations.all {
+    }
 }
 
 task clean(type: Delete) {
 	delete rootProject.buildDir
 }
-

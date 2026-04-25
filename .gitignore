@@ -43,3 +43,6 @@ build
 *.swp
 /store_media
 bfg.jar
+
+# Kotlin/IDE local cache
+.kotlin/

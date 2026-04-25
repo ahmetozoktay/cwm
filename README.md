@@ -1,11 +1,11 @@
-# roove  [![GitHub license](https://img.shields.io/github/license/muramrr/roove)](https://github.com/muramrr/roove/blob/master/LICENSE) [![](https://img.shields.io/badge/minSDK-21-blue)](https://shields.io/) [![](https://img.shields.io/badge/targetSDK-31-dark_green)](https://shields.io/)
+# cwm  [![GitHub license](https://img.shields.io/github/license/muramrr/cwm)](https://github.com/muramrr/cwm/blob/master/LICENSE) [![](https://img.shields.io/badge/minSDK-21-blue)](https://shields.io/) [![](https://img.shields.io/badge/targetSDK-31-dark_green)](https://shields.io/)
 
 ## ATTENTION
 I've tired to follow facebook new policies each 3 months and appeal my app on review to enable facebook login. I don't give a shit how facebook being so stupid so they can't test my app. So, facebook login will not work anymore, I don't want to support this feature in my app. It is easy to migrate to Google login, so you can use it for sure.
 
 **Dating app (tinder-clone).**
 
-![Logo](https://github.com/muramrr/roove/blob/master/media/roove_logo_1024_500.png)
+![Logo](https://github.com/muramrr/cwm/blob/master/media/cwm_logo_1024_500.png)
 
 
 ### Used libraries/patterns:
@@ -21,7 +21,7 @@ I've tired to follow facebook new policies each 3 months and appeal my app on re
 * Location Service (to obtain user physical location).
 
 
-[![](https://github.com/muramrr/roove/blob/master/media/google-play-badge.png)](https://play.google.com/store/apps/details?id=com.mmdev.roove)
+[![](https://github.com/muramrr/cwm/blob/master/media/google-play-badge.png)](https://play.google.com/store/apps/details?id=com.greatideasoft.cwm.app)
 
 
 
@@ -63,9 +63,12 @@ There are no any additional features such as gifts, paid subscription, in-app bi
 
 ## License
 
-[GitHub license](https://github.com/muramrr/roove/blob/master/LICENSE)
+[GitHub license](https://github.com/muramrr/cwm/blob/master/LICENSE)
 
 
 ```
 Copyright (c) 2021 Andrii Kovalchuk
 ```
+
+
+

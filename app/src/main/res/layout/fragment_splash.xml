@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
   ~ Created by Andrii Kovalchuk
-  ~ Copyright (C) 2021. roove
+  ~ Copyright (C) 2021. cwm
   ~
   ~ This program is free software: you can redistribute it and/or modify
   ~ it under the terms of the GNU General Public License as published by
@@ -23,10 +23,12 @@
 	android:background="?colorSurface"
 	xmlns:android="http://schemas.android.com/apk/res/android"
 	>
-	<com.mmdev.roove.ui.common.custom.components.LoadingView
+	<com.greatideasoft.cwm.app.ui.common.custom.components.LoadingView
 		android:layout_width="100dp"
 		android:layout_height="100dp"
 		android:layout_gravity="center"
 		/>
 	
 </FrameLayout>
+
+

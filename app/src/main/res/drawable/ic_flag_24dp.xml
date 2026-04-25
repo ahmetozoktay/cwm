@@ -1,6 +1,6 @@
 <!--
   ~ Created by Andrii Kovalchuk
-  ~ Copyright (C) 2020. roove
+  ~ Copyright (C) 2020. cwm
   ~
   ~ This program is free software: you can redistribute it and/or modify
   ~ it under the terms of the GNU General Public License as published by
@@ -27,3 +27,4 @@
 
     <path android:fillColor="#FF000000" android:pathData="M14.4,6L14,4H5v17h2v-7h5.6l0.4,2h7V6z"/>
 </vector>
+

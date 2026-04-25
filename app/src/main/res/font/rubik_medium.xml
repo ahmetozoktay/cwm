@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
   ~ Created by Andrii Kovalchuk
-  ~ Copyright (C) 2020. roove
+  ~ Copyright (C) 2020. cwm
   ~
   ~ This program is free software: you can redistribute it and/or modify
   ~ it under the terms of the GNU General Public License as published by
@@ -23,3 +23,4 @@
         app:fontProviderQuery="name=Rubik&amp;weight=500"
         app:fontProviderCerts="@array/com_google_android_gms_fonts_certs">
 </font-family>
+

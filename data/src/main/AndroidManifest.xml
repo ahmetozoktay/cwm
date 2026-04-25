@@ -1,6 +1,6 @@
 <!--
   ~ Created by Andrii Kovalchuk
-  ~ Copyright (C) 2021. roove
+  ~ Copyright (C) 2021. cwm
   ~
   ~ This program is free software: you can redistribute it and/or modify
   ~ it under the terms of the GNU General Public License as published by
@@ -16,8 +16,7 @@
   ~ along with this program.  If not, see https://www.gnu.org/licenses
   -->
 
-<manifest package="com.mmdev.data"
-	xmlns:android="http://schemas.android.com/apk/res/android"
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
 	>
 	
 	<uses-permission android:name="android.permission.INTERNET" />
@@ -25,3 +24,6 @@
 	<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
 	
 </manifest>
+
+
+

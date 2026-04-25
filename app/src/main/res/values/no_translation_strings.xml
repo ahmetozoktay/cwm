@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
   ~ Created by Andrii Kovalchuk
-  ~ Copyright (C) 2021. roove
+  ~ Copyright (C) 2021. cwm
   ~
   ~ This program is free software: you can redistribute it and/or modify
   ~ it under the terms of the GNU General Public License as published by
@@ -21,8 +21,8 @@
 	
 	<!--General-->
 	<string name="app_logo" translatable="false">App Logo</string>
-	<string name="app_name" translatable="false">roove</string>
-	<string name="privacy_policy_url" translatable="false">https://roove.flycricket.io/privacy.html</string>
+	<string name="app_name" translatable="false">cwm</string>
+	<string name="privacy_policy_url" translatable="false">https://cwm.flycricket.io/privacy.html</string>
 	
 	<!--Default strings-->
 	<string name="default_name" translatable="false">John Doe</string>
