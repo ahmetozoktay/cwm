@@ -2,8 +2,6 @@
 
 Android tabanli bir dating uygulamasi (tinder-benzeri) projesi.
 
-![Logo](media/cwm_logo_1024_500.png)
-
 ## Proje Ozeti
 
 - Katmanli yapi: `app`, `data`, `domain`
